@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  adb:
+    repository: pete-oconnell/hass-variables
+    target: variables
+    image: hassioaddons/variables-{arch}
